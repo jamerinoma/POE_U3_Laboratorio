@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.12.12412.261 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionElectronicos.Api", "GestionElectronicos.Api\GestionElectronicos.Api.csproj", "{37CF1E59-0D65-51F7-A43F-77CE3AFA4C21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionElectronicos.Desktop", "GestionElectronicos.Desktop\GestionElectronicos.Desktop.csproj", "{8ED64DE3-5CC9-5E54-BB53-6D18535FEF78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37CF1E59-0D65-51F7-A43F-77CE3AFA4C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37CF1E59-0D65-51F7-A43F-77CE3AFA4C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37CF1E59-0D65-51F7-A43F-77CE3AFA4C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37CF1E59-0D65-51F7-A43F-77CE3AFA4C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ED64DE3-5CC9-5E54-BB53-6D18535FEF78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ED64DE3-5CC9-5E54-BB53-6D18535FEF78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ED64DE3-5CC9-5E54-BB53-6D18535FEF78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ED64DE3-5CC9-5E54-BB53-6D18535FEF78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A6A7BB7-6410-4E66-91A9-BF547A97DFC1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>GestionElectronicos.Desktop</RootNamespace>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Update="configuracion.json" CopyToOutputDirectory="PreserveNewest" />
+	  <PackageReference Include="PDFsharp-MigraDoc-GDI" Version="6.2.4" />
+  </ItemGroup>
+</Project>
